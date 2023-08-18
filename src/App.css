@@ -1,29 +1,3 @@
-/* NAVBAR */
-.nav-link::before {
-  content: "🤖";
-  position: absolute;
-  opacity: 0.8;
-  left: -20px;
-  bottom: 0;
-  display: none;
+* {
+  scroll-behavior: smooth;
 }
-
-.nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background: #fff;
-  transition: width .3s ease;
-}
-
-.nav-link:hover::before {
-  display: block;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-}
-

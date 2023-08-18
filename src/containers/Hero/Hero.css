@@ -1,0 +1,81 @@
+/* HERO */
+.gradient-div {
+    background: linear-gradient(to right, #333, #fff, #1883e6, #2a4c6b);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+    filter: drop-shadow(0px 0px 1px #1883e6) drop-shadow(0px 0px 1px #333)
+      drop-shadow(0px 0px 1px #fff);
+  }
+  
+  .blacket {
+    animation: blink 1s linear infinite;
+  }
+  
+  .box div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .box div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    animation: backgroundAnimate 10s linear infinite;
+  }
+  
+  .box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: backgroundAnimate 7s linear infinite;
+  }
+  
+  .box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: backgroundAnimate 9s linear infinite;
+  }
+  
+  .box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: backgroundAnimate 10s linear infinite;
+  }
+  
+  .box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: backgroundAnimate 6s linear infinite;
+  }
+  
+  .box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: backgroundAnimate 12s linear infinite;
+  }
+  
+  .box div:nth-child(7) {
+    top: 60%;
+    left: 80%;
+    animation: backgroundAnimate 15s linear infinite;
+  }
+  
+  .box div:nth-child(8) {
+    top: 32%;
+    left: 25%;
+    animation: backgroundAnimate 16s linear infinite;
+  }
+  
+  .box div:nth-child(9) {
+    top: 90%;
+    left: 70%;
+    animation: backgroundAnimate 9s linear infinite;
+  }
+  
+  .box div:nth-child(10) {
+    top: 20%;
+    left: 70%;
+    animation: backgroundAnimate 12s linear infinite;
+  }
+  
