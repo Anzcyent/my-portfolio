@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className="w-full h-[95vh] bg-gradient text-white font-poppins p-3 flex flex-col items-center justify-evenly relative">
       <div className="flex absolute md:right-5 top-10 gap-3 text-xs">
-        <button className="bg-dark px-3 py-1 hover-and-scale">TR</button>
-        <button className="bg-dark px-3 py-1 hover-and-scale">EN</button>
+        <button className="bg-black px-3 py-1 hover-and-scale">TR</button>
+        <button className="bg-black px-3 py-1 hover-and-scale">EN</button>
       </div>
 
       <div className="mt-3 flex flex-col justify-center items-center">

@@ -3,8 +3,8 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-[#2d4256] text-white font-poppins p-3">
-      <div className="flex sm:w-1/3 w-full justify-evenly sm:text-base text-sm">
+    <nav className="w-full bg-gradient text-white font-poppins p-3">
+      <div className="flex justify-evenly sm:text-base text-sm">
         <a
           href="#"
           className="hover-and-scale font-semibold nav-link relative transition"

@@ -2,15 +2,19 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        image: "url('/assets/bg.jpg')",
+      },
+    },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
     },
     colors: {
-      dark: "#333",
-      themeBlue: "#1883E6",
+      dark: "#2d4256",
+      darkSecondary: "#040c18",
       white: "#fff",
-      black: "#000"
+      black: "#000",
     },
     screens: {
       ss: "340px",

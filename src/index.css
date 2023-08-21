@@ -5,11 +5,10 @@
 @tailwind utilities;
 
 .bg-gradient {
-  /* global 92%+ browsers support */
   background: radial-gradient(
-    circle at 17% 91%,
-    rgba(51, 51, 51, 1) 16%,
-    rgba(24, 131, 230, 1) 100%
+    circle at 110% 25%,
+    rgba(51, 51, 51, 1) -10%,
+    rgba(16,40,82,1) 70%
   );
 }
 
