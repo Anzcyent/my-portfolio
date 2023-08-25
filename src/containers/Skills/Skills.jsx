@@ -2,13 +2,14 @@ import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { skills, personalSkills, developerSkills } from "../../utils/data";
 
+// H3'LERE BEFORE İLE BEYAZ Bİ ARKA PLAN YAZISI EKLE
 const Skills = () => {
   return (
     <section className="min-h-[100vh] font-poppins p-3 bg-darkSecondary text-white overflow-auto custom-scroll">
       <div className="wrapper flex lg:flex-row flex-col justify-center w-full h-full lg:gap-80 gap-0">
         <div className="lg:w-1/2 w-full grid grid-cols-1">
           <h3 className="font-bold text-gradient-blue lg:text-4xl text-2xl mb-7 lg:mt-0 mt-20">
-            Language/Framework Skills
+            Language Skills
           </h3>
           {skills.map((skill, i) => (
             <div
@@ -18,14 +19,14 @@ const Skills = () => {
               <img
                 src={skill.image}
                 alt={skill.name}
-                className="lg:w-20 w-10 lg:mr-5 mr-1"
+                className="lg:w-20 w-10 lg:mr-5 mr-1 lg:border lg:p-3 p-0"
               />
               <ProgressBar
                 completed={skill.completed}
                 customLabel={skill.name}
                 className="w-full"
                 barContainerClassName="bg-gradient overflow-hidden"
-                labelClassName="font-bold px-3 bg-aqua w-full text-sm"
+                labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
                 animateOnRender={true}
                 transitionDuration="2s"
               />
@@ -42,19 +43,19 @@ const Skills = () => {
             {personalSkills.map((skill, i) => (
               <div
                 key={skill.name + i}
-                className="flex items-center w-full mt-5 hover-and-scale"
+                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale"
               >
                 <img
                   src={skill.image}
                   alt={skill.name}
-                  className="lg:w-20 w-10 lg:mr-5 mr-1"
+                  className="lg:w-20 w-10 lg:mr-5 mr-1 lg:border lg:p-3 p-0"
                 />
                 <ProgressBar
                   completed={skill.completed}
                   customLabel={skill.name}
                   className="w-full"
                   barContainerClassName="bg-gradient overflow-hidden"
-                  labelClassName="font-bold px-3 bg-aqua w-full text-sm"
+                  labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
                   animateOnRender={true}
                   transitionDuration="2s"
                 />
@@ -70,19 +71,19 @@ const Skills = () => {
             {developerSkills.map((skill, i) => (
               <div
                 key={skill.name + i}
-                className="flex items-center w-full mt-5 hover-and-scale"
+                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale"
               >
                 <img
                   src={skill.image}
                   alt={skill.name}
-                  className="lg:w-20 w-10 lg:mr-5 mr-1"
+                  className="lg:w-20 w-10 lg:mr-5 mr-1 lg:border lg:p-3 p-0"
                 />
                 <ProgressBar
                   completed={skill.completed}
                   customLabel={skill.name}
                   className="w-full"
                   barContainerClassName="bg-gradient overflow-hidden"
-                  labelClassName="font-bold px-3 bg-aqua w-full text-sm"
+                  labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
                   animateOnRender={true}
                   transitionDuration="2s"
                 />
