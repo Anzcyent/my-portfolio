@@ -2,8 +2,15 @@
   scroll-behavior: smooth;
 }
 
-.gradient-text {
-  background: var(--gradient-text);
+.text-gradient-purple {
+  background: var(--gradient-text-purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-blue {
+  background: var(--gradient-text-blue);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -41,4 +48,9 @@
 
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
 }

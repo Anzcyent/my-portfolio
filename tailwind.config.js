@@ -13,6 +13,8 @@ export default {
     colors: {
       dark: "#2d4256",
       darkSecondary: "#040c18",
+      darkBlue: "#204ecf",
+      aqua: "#009ab6",
       white: "#fff",
       black: "#000",
     },
