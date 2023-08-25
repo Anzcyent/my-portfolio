@@ -4,19 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-gradient {
-  background: radial-gradient(
-    circle at 110% 25%,
-    rgba(51, 51, 51, 1) -10%,
-    rgba(16,40,82,1) 70%
-  );
-}
-
-.hover-and-scale:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.hover-and-scale:active {
-  transform: scale(0.98);
+:root {
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }

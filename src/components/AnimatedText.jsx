@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const AnimatedText = ({ text, delay }) => {
+const AnimatedText = ({ text, delay, styles }) => {
   const [animatedText, setAnimatedText] = useState("");
   const [blacket, setBlacket] = useState(true);
 
@@ -23,10 +23,39 @@ const AnimatedText = ({ text, delay }) => {
   }, [animatedText, text]);
 
   return (
-    <p className="lg:w-1/2 w-full mt-12 lg:text-2xl text-base">
+    <p className={styles}>
       {animatedText}
       {blacket && <span className={`text-black font-bold blacket`}>|</span>}
     </p>
+  );
+};
+
+export const AnimatedParagraphs = ({ paragraphs, delay, styles }) => {
+  const [currentParagraphIndex, setCurrentParagraphIndex] = useState(0);
+
+  useEffect(() => {
+    if (currentParagraphIndex < paragraphs.length) {
+      const timer = setTimeout(() => {
+        setCurrentParagraphIndex((prevIndex) => prevIndex + 1);
+      }, paragraphs[currentParagraphIndex].length * delay);
+
+      return () => clearTimeout(timer);
+    }
+  }, [currentParagraphIndex, paragraphs, delay]);
+
+  return (
+    <div>
+      {paragraphs
+        .slice(0, currentParagraphIndex + 1)
+        .map((paragraph, index) => (
+          <AnimatedText
+            key={index}
+            text={paragraph}
+            delay={delay}
+            styles="mt-5"
+          />
+        ))}
+    </div>
   );
 };
 

@@ -25,7 +25,8 @@ const Hero = () => {
 
       <AnimatedText
         text="Hello!!! I am Cihan, a passionate junior front-end developer. My love and curiosity for the web inspires my journey to create user-centered, engaging and functional websites. On this platform, you can meet me, discover my projects, and browse my posts where I share my passion for technology."
-        delay={50}
+        delay={75}
+        styles="lg:w-1/2 w-full mt-12 lg:text-2xl text-base"
       />
 
       <div className="gradient-div mt-12 w-full h-[10px]"></div>
