@@ -3,7 +3,14 @@ import "./App.css";
 import "./keyframes.css";
 
 import { Footer, Navbar } from "./components";
-import { Blog, Contact, Description, Hero, Skills } from "./containers";
+import {
+  Blog,
+  Contact,
+  Description,
+  Hero,
+  Projects,
+  Skills,
+} from "./containers";
 
 const App = () => {
   return (
@@ -12,6 +19,7 @@ const App = () => {
       <Hero />
       <Description />
       <Skills />
+      <Projects />
       <Blog />
       <Contact />
       <Footer />
