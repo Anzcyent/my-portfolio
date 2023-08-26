@@ -1,9 +1,21 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { skills, personalSkills, developerSkills } from "../../utils/data";
+import { SkillInfo } from "../../components";
+import { useState } from "react";
 
 // H3'LERE BEFORE İLE BEYAZ Bİ ARKA PLAN YAZISI EKLE
 const Skills = () => {
+  const [showInfo, setShowInfo] = useState(null);
+
+  const sortedSkills = skills.slice().sort((a, b) => b.completed - a.completed);
+  const sortedPersonalSkills = personalSkills
+    .slice()
+    .sort((a, b) => b.completed - a.completed);
+  const sortedDeveloperSkills = developerSkills
+    .slice()
+    .sort((a, b) => b.completed - a.completed);
+
   return (
     <section className="min-h-[100vh] font-poppins p-3 bg-darkSecondary text-white overflow-auto custom-scroll">
       <div className="wrapper flex lg:flex-row flex-col justify-center w-full h-full lg:gap-80 gap-0">
@@ -11,10 +23,13 @@ const Skills = () => {
           <h3 className="font-bold text-gradient-blue lg:text-4xl text-2xl mb-7 lg:mt-0 mt-20">
             Language Skills
           </h3>
-          {skills.map((skill, i) => (
+          {sortedSkills.map((skill, i) => (
             <div
               key={skill.name + i}
-              className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale"
+              className="flex justify-evenly items-center w-full mt-10 relative hover-and-scale"
+              onClick={() =>
+                setShowInfo(skill.name === showInfo ? null : skill.name)
+              }
             >
               <img
                 src={skill.image}
@@ -26,10 +41,13 @@ const Skills = () => {
                 customLabel={skill.name}
                 className="w-full"
                 barContainerClassName="bg-gradient overflow-hidden"
-                labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
+                labelClassName="font-bold p-3 bg-aqua w-full lg:text-sm text-xs text-black hover:text-white"
                 animateOnRender={true}
                 transitionDuration="2s"
               />
+              {showInfo === skill.name && (
+                <SkillInfo info={skill.info} category={skill.category} />
+              )}
             </div>
           ))}
         </div>
@@ -40,10 +58,13 @@ const Skills = () => {
               Personal Skills
             </h3>
 
-            {personalSkills.map((skill, i) => (
+            {sortedPersonalSkills.map((skill, i) => (
               <div
                 key={skill.name + i}
-                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale"
+                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale relative"
+                onClick={() =>
+                  setShowInfo(skill.name === showInfo ? null : skill.name)
+                }
               >
                 <img
                   src={skill.image}
@@ -55,10 +76,13 @@ const Skills = () => {
                   customLabel={skill.name}
                   className="w-full"
                   barContainerClassName="bg-gradient overflow-hidden"
-                  labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
+                  labelClassName="font-bold p-3 bg-aqua w-full lg:text-sm text-xs text-black hover:text-white"
                   animateOnRender={true}
                   transitionDuration="2s"
                 />
+                {showInfo === skill.name && (
+                  <SkillInfo info={skill.info} category={skill.category} />
+                )}
               </div>
             ))}
           </div>
@@ -68,10 +92,13 @@ const Skills = () => {
               Developer Skills
             </h3>
 
-            {developerSkills.map((skill, i) => (
+            {sortedDeveloperSkills.map((skill, i) => (
               <div
                 key={skill.name + i}
-                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale"
+                className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale relative"
+                onClick={() =>
+                  setShowInfo(skill.name === showInfo ? null : skill.name)
+                }
               >
                 <img
                   src={skill.image}
@@ -83,10 +110,13 @@ const Skills = () => {
                   customLabel={skill.name}
                   className="w-full"
                   barContainerClassName="bg-gradient overflow-hidden"
-                  labelClassName="font-bold px-3 bg-aqua w-full text-sm text-black hover:text-white"
+                  labelClassName="font-bold p-3 bg-aqua w-full lg:text-sm text-xs text-black hover:text-white"
                   animateOnRender={true}
                   transitionDuration="2s"
                 />
+                {showInfo === skill.name && (
+                  <SkillInfo info={skill.info} category={skill.category} />
+                )}
               </div>
             ))}
           </div>

@@ -1,0 +1,9 @@
+.skill-info::after {
+    content: "";
+    width: 25px;
+    height: 10px;
+    position: absolute;
+    background: #009ab6;
+    top: 0;
+    left: 0;
+}
