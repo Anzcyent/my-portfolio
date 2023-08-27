@@ -1,0 +1,43 @@
+.hr::after,
+.hr::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 50%;
+  left: 0;
+}
+
+.hr::before {
+  background: linear-gradient(
+    90deg,
+    #10111f 0%,
+    #10111f 50%,
+    transparent 50%,
+    transparent 100%
+  );
+  background-size: 15px;
+  background-position: center;
+  z-index: 1;
+}
+
+.hr::after {
+  transition: opacity 0.3s ease, animation 0.3s ease;
+
+  background: linear-gradient(
+    to right,
+    #62efab 5%,
+    #f2ea7d 15%,
+    #f2ea7d 25%,
+    #ff8797 35%,
+    #ff8797 45%,
+    #e1a4f4 55%,
+    #e1a4f4 65%,
+    #82fff4 75%,
+    #82fff4 85%,
+    #62efab 95%
+  );
+
+  background-size: 200%;
+  background-position: 0%;
+}

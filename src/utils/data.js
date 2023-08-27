@@ -181,3 +181,112 @@ export const developerSkills = [
     category: "developer",
   },
 ];
+
+export const projects = [
+  {
+    name: "GPT",
+    description: "A landing page template introducing GPT.",
+    pageUrl: "https://anz-gpt.onrender.com",
+    codeUrl: "https://github.com/Anzcyent/anz-gpt/tree/main",
+    image: "/assets/projects/gpt.png",
+    category: "landing",
+    techStacks: ["/assets/skills/react.png", "/assets/skills/sass.png"],
+  },
+  {
+    name: "PolyZone",
+    description:
+      "A landing page template introducing a shooting range shop that I've created for one of my friends.",
+    pageUrl: "https://poly-zone.onrender.com",
+    codeUrl: "https://github.com/Anzcyent/poly-zone",
+    image: "/assets/projects/polyzone.png",
+    category: "landing",
+    techStacks: ["/assets/skills/react.png", "/assets/skills/sass.png"],
+  },
+  {
+    name: "FitFlex",
+    description: "A landing page template introducing a GYM chain company.",
+    pageUrl: "https://fit-flex.onrender.com",
+    codeUrl: "https://github.com/Anzcyent/fitflex",
+    image: "/assets/projects/fitflex.png",
+    category: "landing",
+    techStacks: [
+      "/assets/skills/react.png",
+      "/assets/skills/sass.png",
+      "/assets/skills/swiper.png",
+    ],
+  },
+  {
+    name: "ShopEazy",
+    description: "A full stack (MERN) e-commerce website.",
+    pageUrl: "https://shopeazy-client.onrender.com",
+    codeUrl: [
+      "https://github.com/Anzcyent/e-commerce-client",
+      "https://github.com/Anzcyent/e-commerce-server",
+    ],
+    image: "/assets/projects/shopeazy.png",
+    category: "full-stack",
+    techStacks: [
+      "/assets/skills/react.png",
+      "/assets/skills/tailwind.png",
+      "/assets/skills/redux.png",
+      "/assets/skills/nodejs.png",
+      "/assets/skills/mongo.png",
+    ],
+  },
+  {
+    name: "BlogAnz",
+    description:
+      "A full stack (MERN) blog sharing website that I've created for my school project.",
+    pageUrl: "https://bloganz-client.onrender.com",
+    codeUrl: [
+      "https://github.com/Anzcyent/bloganz-client",
+      "https://github.com/Anzcyent/bloganz-server",
+    ],
+    image: "/assets/projects/bloganz.png",
+    category: "full-stack",
+    techStacks: [
+      "/assets/skills/react.png",
+      "/assets/skills/tailwind.png",
+      "/assets/skills/redux.png",
+      "/assets/skills/nodejs.png",
+      "/assets/skills/mongo.png",
+    ],
+  },
+  {
+    name: "Vote Vortex",
+    description: "A full stack (MERN) survey sharing website.",
+    pageUrl: "https://vote-vortex-client.onrender.com",
+    codeUrl: [
+      "https://github.com/Anzcyent/vote-vortex-client",
+      "https://github.com/Anzcyent/vote-vortex-server",
+    ],
+    image: "/assets/projects/votevortex.png",
+    category: "full-stack",
+    techStacks: [
+      "/assets/skills/react.png",
+      "/assets/skills/tailwind.png",
+      "/assets/skills/redux.png",
+      "/assets/skills/nodejs.png",
+      "/assets/skills/mongo.png",
+    ],
+  },
+  {
+    name: "Guess What",
+    description:
+      "A full stack (MERN) and basic gambling (for entertainment purposes, no real money is used) game.",
+    pageUrl: "https://guess-what-client.onrender.com",
+    codeUrl: [
+      "https://github.com/Anzcyent/guess-what-client",
+      "https://github.com/Anzcyent/guess-what-server",
+    ],
+    image: "/assets/projects/guesswhat.png",
+    category: "full-stack",
+    techStacks: [
+      "/assets/skills/react.png",
+      "/assets/skills/tailwind.png",
+      "/assets/skills/redux.png",
+      "/assets/skills/nodejs.png",
+      "/assets/skills/mongo.png",
+    ],
+  },
+];
