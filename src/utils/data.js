@@ -231,6 +231,7 @@ export const projects = [
       "/assets/skills/redux.png",
       "/assets/skills/nodejs.png",
       "/assets/skills/mongo.png",
+      "/assets/skills/axios.png",
     ],
   },
   {
@@ -250,6 +251,7 @@ export const projects = [
       "/assets/skills/redux.png",
       "/assets/skills/nodejs.png",
       "/assets/skills/mongo.png",
+      "/assets/skills/axios.png",
     ],
   },
   {
@@ -268,6 +270,7 @@ export const projects = [
       "/assets/skills/redux.png",
       "/assets/skills/nodejs.png",
       "/assets/skills/mongo.png",
+      "/assets/skills/axios.png",
     ],
   },
   {
@@ -287,6 +290,7 @@ export const projects = [
       "/assets/skills/redux.png",
       "/assets/skills/nodejs.png",
       "/assets/skills/mongo.png",
+      "/assets/skills/axios.png",
     ],
   },
 ];

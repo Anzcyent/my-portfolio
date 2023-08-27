@@ -5,7 +5,7 @@ import { skills, personalSkills, developerSkills } from "../../utils/data";
 import { SkillInfo } from "../../components";
 import { useState } from "react";
 
-// H3'LERE BEFORE İLE BEYAZ Bİ ARKA PLAN YAZISI EKLE
+
 const Skills = () => {
   const [showInfo, setShowInfo] = useState(null);
 
