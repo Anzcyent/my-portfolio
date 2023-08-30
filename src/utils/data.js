@@ -299,7 +299,7 @@ export const qa = [
   {
     questionId: 1,
     answerId: 1,
-    question: "Why should we choose you for this job?",
+    question: "Why should we choose you?",
     answer:
       "With my relevant experience and interest in web technologies, I can overcome challenges in your projects thanks to my problem solving skills and add value to your projects through teamwork. With my willingness to keep your projects up to date by adapting to rapidly changing trends and my understanding of user-oriented design, I can ensure that your projects provide impressive experiences for users.",
   },
