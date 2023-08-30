@@ -28,7 +28,7 @@ const ProjectCard = ({
       </main>
 
       <footer className="flex flex-col h-[250px] rounded-bl-lg rounded-br-lg">
-        <p className="flex flex-col justify-around text-sm p-3 h-[200px] bg-gradient">
+        <div className="flex flex-col justify-around text-sm p-3 h-[200px] bg-gradient">
           {description}
           <br />
           <div className="flex w-full justify-evenly items-center mt-1">
@@ -36,7 +36,7 @@ const ProjectCard = ({
               <img src={tech} alt={tech} className="w-10" key={tech + i} />
             ))}
           </div>
-        </p>
+        </div>
 
         {showFullStackCodeMenu === name ? (
           <FullStackCodeMenu

@@ -23,10 +23,10 @@ const AnimatedText = ({ text, delay, styles }) => {
   }, [animatedText, text]);
 
   return (
-    <p className={styles}>
+    <div className={styles}>
       {animatedText}
       {blacket && <span className={`text-black font-bold blacket`}>|</span>}
-    </p>
+    </div>
   );
 };
 

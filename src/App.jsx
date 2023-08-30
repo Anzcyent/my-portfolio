@@ -4,12 +4,13 @@ import "./keyframes.css";
 
 import { Footer, Navbar } from "./components";
 import {
-  Blog,
+  QA,
   Contact,
   Description,
   Hero,
   Projects,
   Skills,
+  CV
 } from "./containers";
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
       <Description />
       <Skills />
       <Projects />
-      <Blog />
+      <QA />
+      <CV />
       <Contact />
       <Footer />
     </>
