@@ -47,3 +47,12 @@
     box-shadow: 0px 0px 120px #ae67fa;
   }
 }
+
+@keyframes bounceGrapes {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}

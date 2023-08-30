@@ -6,7 +6,7 @@ const QA = () => {
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
 
   return (
-    <section className="min-h-[100vh] bg-darkSecondary text-white p-3 font-poppins">
+    <section className="h-[100vh] bg-darkSecondary text-white p-3 font-poppins">
       <div className="wrapper">
         <Divider />
 
@@ -17,9 +17,9 @@ const QA = () => {
         <div className="flex flex-col gap-10 mt-20 items-center">
           {qa.map((q) => (
             <div
-              key={q.questionId + q.answerId}
+              key={q.questionId}
               onClick={() => setCurrentQuestionId(q.questionId)}
-              className="border-2 p-3 w-full hover-and-scale hover:bg-white hover:text-black transition bg-gradient"
+              className="border-2 p-3 w-full hover-and-scale hover:bg-white transition bg-gradient"
             >
               {!currentQuestionId ? q.question : currentQuestionId === q.questionId ? <AnimatedText text={q.answer} delay={30} styles="text-gradient-blue" /> : q.question}
             </div>

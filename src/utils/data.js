@@ -298,35 +298,30 @@ export const projects = [
 export const qa = [
   {
     questionId: 1,
-    answerId: 1,
     question: "Why should we choose you?",
     answer:
       "With my relevant experience and interest in web technologies, I can overcome challenges in your projects thanks to my problem solving skills and add value to your projects through teamwork. With my willingness to keep your projects up to date by adapting to rapidly changing trends and my understanding of user-oriented design, I can ensure that your projects provide impressive experiences for users.",
   },
   {
     questionId: 2,
-    answerId: 2,
     question: "How do you solve the biggest technical challenges?",
     answer:
       "When solving big technical challenges, I approach it by first gaining a deep understanding of the problem, researching a variety of sources and looking for similar solutions. I break the problem down and create a step-by-step solution, then test the solution and make adjustments as needed. I take note of the solutions I find by utilizing different perspectives, and through these processes, I succeed in solving problems and creating learning opportunities at the same time.",
   },
   {
     questionId: 3,
-    answerId: 3,
     question: "Why do you want to become a front-end developer?",
     answer:
       "The main reason I chose to become a Front-End Developer is my desire to create interactive and user-centered experiences in the digital world by combining my creativity with technical skills. I want to contribute to a better experience for people in the digital environment by combining my skills in design and coding to make websites and applications more impressive, accessible and easy to use.",
   },
   {
     questionId: 4,
-    answerId: 4,
     question: "How do you communicate within the team?",
     answer:
       "When communicating within the team, I first try to understand the views of other members by using my effective listening skills. I support a positive environment by taking different ideas into account while expressing my thoughts clearly and concisely. I actively communicate to ask questions and get feedback, and when necessary, I share details through written communication tools to make sure everyone is on the same page.",
   },
   {
     questionId: 5,
-    answerId: 5,
     question:
       "Which design principles do you follow when developing your projects?",
     answer:

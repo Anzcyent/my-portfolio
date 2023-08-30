@@ -1,0 +1,29 @@
+.cluster {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(20px);
+    align-items: center;
+  }
+  
+  .grape {
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border-radius: 50%;
+    position: relative;
+    animation: bounceGrapes 1s ease infinite alternate;
+    box-shadow: 0px 0px 10px #d07eb2;
+  }
+  
+  .grape::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #d07eb2;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+  }
+  
