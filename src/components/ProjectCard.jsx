@@ -17,6 +17,8 @@ const ProjectCard = ({
     }
   };
 
+  const lang = localStorage.getItem("lang");
+
   return (
     <div className="w-[300px] h-[450px] text-center border-aqua shadow-lg overflow-hidden animate__animated animate__zoomIn">
       <header className="bg-gradient font-bold h-[40px] rounded-tl-lg rounded-tr-lg">
@@ -33,7 +35,13 @@ const ProjectCard = ({
           <br />
           <div className="flex w-full justify-evenly items-center mt-1">
             {techStacks.map((tech, i) => (
-              <img src={tech} alt={tech} className="w-10" key={tech + i} />
+              <img
+                title={tech}
+                src={tech}
+                alt={tech}
+                className="w-10"
+                key={tech + i}
+              />
             ))}
           </div>
         </div>
@@ -50,7 +58,7 @@ const ProjectCard = ({
               target="_blank"
               className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-bl-lg"
             >
-              Visit Site
+              {lang === "en" ? "Visit Site" : "Aç"}
             </a>
             <a
               href={category === "landing" ? codeUrl : undefined}
@@ -58,7 +66,8 @@ const ProjectCard = ({
               className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-br-lg"
               onClick={() => handleFullStackCodeMenu(category, name)}
             >
-              {"</> "}Code
+              {"</> "}
+              {lang === "en" ? "Code" : "Kaynak"}
             </a>
           </div>
         )}
@@ -67,25 +76,28 @@ const ProjectCard = ({
   );
 };
 
-const FullStackCodeMenu = ({ codeUrl, setShowFullStackCodeMenu }) => (
-  <div className="animate__animated animate__fadeInRight flex w-full h-[50px] text-sm">
-    <a
-      href={codeUrl[0]}
-      target="_blank"
-      className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-bl-lg"
-      onClick={() => setShowFullStackCodeMenu("")}
-    >
-      Client
-    </a>
-    <a
-      href={codeUrl[1]}
-      target="_blank"
-      className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-br-lg"
-      onClick={() => setShowFullStackCodeMenu("")}
-    >
-      Server
-    </a>
-  </div>
-);
+const FullStackCodeMenu = ({ codeUrl, setShowFullStackCodeMenu }) => {
+  const lang = localStorage.getItem("lang");
+  return (
+    <div className="animate__animated animate__fadeInRight flex w-full h-[50px] text-sm">
+      <a
+        href={codeUrl[0]}
+        target="_blank"
+        className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-bl-lg"
+        onClick={() => setShowFullStackCodeMenu("")}
+      >
+        {lang === "en" ? "Client" : "İstemci"}
+      </a>
+      <a
+        href={codeUrl[1]}
+        target="_blank"
+        className="w-1/2 bg-gradient hover-and-scale flex justify-center items-center rounded-br-lg"
+        onClick={() => setShowFullStackCodeMenu("")}
+      >
+        {lang === "en" ? "Server" : "Sunucu"}
+      </a>
+    </div>
+  );
+};
 
 export default ProjectCard;

@@ -3,10 +3,13 @@ import "./Description.css";
 import "animate.css";
 import { AnimatedParagraphs } from "../../components/AnimatedText";
 import { paragraphs } from "../../utils/data";
+import { paragraphsTR } from "../../utils/dataTR";
 import { useMediaQuery } from "react-responsive";
 
 const Description = () => {
   const [renderAnimation, setRenderAnimation] = useState(false);
+
+  const lang = localStorage.getItem("lang");
 
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1280px)",
@@ -33,7 +36,10 @@ const Description = () => {
   }, []);
 
   return (
-    <section id="description" className="h-[100vh] bg-darkSecondary text-white font-poppins p-3">
+    <section
+      id="description"
+      className="h-[100vh] bg-darkSecondary text-white font-poppins p-3"
+    >
       <div className="wrapper flex sm:flex-row flex-col justify-between items-center h-full">
         <div className="image-container sm:w-1/2 w-full sm:h-full h-1/2 flex justify-center items-center relative">
           <img
@@ -47,10 +53,10 @@ const Description = () => {
         {renderAnimation && (
           <div className="sm:w-1/2 w-full sm:h-auto h-1/2 flex flex-col p-6 description-bg animate__animated animate__fadeInRight overflow-auto custom-scroll rounded-md">
             <h2 className="font-bold mb-6 text-gradient-purple sm:text-2xl text-lg text-center">
-              About me
+              {lang === "en" ? "About Me" : "Hakkımda"}
             </h2>
             <AnimatedParagraphs
-              paragraphs={paragraphs}
+              paragraphs={lang === "en" ? paragraphs : paragraphsTR}
               delay={20}
               styles="mt-2 sm:text-base text-sm"
             />

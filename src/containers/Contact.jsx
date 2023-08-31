@@ -10,6 +10,8 @@ const Contact = () => {
     query: "(min-width: 1280px)",
   });
 
+  const lang = localStorage.getItem("lang");
+
   useEffect(() => {
     const handleScroll = () => {
       if (isDesktopOrLaptop) {
@@ -42,7 +44,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Thanks for your feedback");
+          alert("I received your message. Thank you for your feedback.");
         },
         (error) => {
           console.log(error.text);
@@ -57,7 +59,7 @@ const Contact = () => {
       <div className="wrapper mt-20">
         {renderAnimation && (
           <h4 className="text-4xl font-bold text-gradient-purple text-center my-10 animate__animated animate__fadeIn">
-            Contact Me
+            {lang === "en" ? "Contact Me" : "Bana Ulaşın"}
           </h4>
         )}
 
@@ -71,7 +73,7 @@ const Contact = () => {
             <input
               type="text"
               className="w-full p-2 border-2 outline-0 my-5"
-              placeholder="Your name"
+              placeholder={lang === "en" ? "Your Name" : "İsminiz"}
               style={{ background: "transparent" }}
               required
               name="user_name"
@@ -79,7 +81,7 @@ const Contact = () => {
             <input
               type="email"
               className="w-full p-2 border-2 outline-0 my-5"
-              placeholder="Your email address"
+              placeholder={lang === "en" ? "Your email address" : "Email adresiniz"}
               style={{ background: "transparent" }}
               required
               name="user_email"
@@ -87,7 +89,7 @@ const Contact = () => {
             <textarea
               type="text"
               className="w-full p-2 border-2 outline-0 my-5"
-              placeholder="Your message"
+              placeholder={lang === "en" ? "Your message" : "Mesajınz"}
               rows={10}
               style={{ background: "transparent" }}
               required
@@ -98,7 +100,7 @@ const Contact = () => {
               type="submit"
               className="bg-dark p-3 hover-and-scale self-center w-full my-5"
             >
-              Send
+              {lang === "en" ? "Send" : "Gönder"}
             </button>
           </form>
         )}

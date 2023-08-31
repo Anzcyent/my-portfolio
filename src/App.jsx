@@ -10,10 +10,14 @@ import {
   Hero,
   Projects,
   Skills,
-  CV
+  CV,
 } from "./containers";
 
 const App = () => {
+  const lang = localStorage.getItem("lang");
+
+  if (!lang) localStorage.setItem("lang", "en");
+
   return (
     <>
       <Navbar />
