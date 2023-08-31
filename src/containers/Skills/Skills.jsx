@@ -106,7 +106,7 @@ const Skills = () => {
               sortedPersonalSkills.map((skill, i) => (
                 <div
                   key={skill.name + i}
-                  className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale relative"
+                  className={`flex items-center w-full ${skill.name === "Creativity" && "mt-20"} mt-10 hover-and-scale relative`}
                   onClick={() =>
                     setShowInfo(skill.name === showInfo ? null : skill.name)
                   }
@@ -143,7 +143,7 @@ const Skills = () => {
               sortedDeveloperSkills.map((skill, i) => (
                 <div
                   key={skill.name + i}
-                  className="flex items-center w-full lg:mt-10 mt-5 hover-and-scale relative"
+                  className="flex items-center w-full mt-10 hover-and-scale relative"
                   onClick={() =>
                     setShowInfo(skill.name === showInfo ? null : skill.name)
                   }

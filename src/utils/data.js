@@ -82,14 +82,7 @@ export const skills = [
     image: "/assets/skills/typescript.png",
     info: "I can use TypeScript in my projects to write more secure and readable code. I can take advantage of typing and modern JavaScript features. But I am new to TypeScript.",
     category: "language",
-  },
-  {
-    name: "Jest",
-    completed: 60,
-    image: "/assets/skills/jest.png",
-    info: "I only know Jest at a basic level, I'm not very good at testing.",
-    category: "language",
-  },
+  }
 ];
 
 export const personalSkills = [
@@ -177,7 +170,7 @@ export const developerSkills = [
     name: "Testing and Debugging",
     completed: 60,
     image: "/assets/skills/test.png",
-    info: "I try to do my best in testing and debugging. I can still test and debug code using testing frameworks like Jest.",
+    info: "I try to do my best in testing and debugging.",
     category: "developer",
   },
 ];
