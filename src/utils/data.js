@@ -328,3 +328,9 @@ export const qa = [
       "When developing my projects, I pay attention to basic design principles such as user-centricity, simplicity and accessibility. I aim to improve the user experience by focusing on the needs of the users. I aim to reduce complexity with simple and clean designs so that users can quickly reach their goals, while I strive to ensure that everyone can easily access the content by observing the principles of accessibility. I also balance aesthetic factors such as color, typography and layout, making sure that projects are both functional and visually impressive.",
   },
 ];
+
+export const paragraphs = [
+  "I am Cihan. I have a bachelor's degree in English translation and interpreting from Kırıkkale University and an associate degree in web design and coding from Anadolu University.",
+  "My fascination with software started about 3 years ago and when I entered the world of web development, I realized that I enjoy creating user-centered interfaces. By developing my React.js skills, I enjoy turning design concepts into interactive and dynamic websites that captivate users and offer smooth navigation.",
+  "As a Junior Developer, I love continuous learning. I try to stay up to date with the latest trends, best practices and new technologies in the ever-evolving environment of front end development. I try to improve my skills and embrace new challenges in every project I do or contribute to. I try to write clean and non-repetitive code (as much as I can 😁).",
+];
