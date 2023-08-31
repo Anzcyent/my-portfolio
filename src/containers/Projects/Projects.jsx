@@ -14,7 +14,7 @@ const Projects = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (isDesktopOrLaptop) {
-        if (window.scrollY > 2895 && window.scrollY < 3500) {
+        if (window.scrollY > 2332 && window.scrollY < 3500) {
           setRenderAnimation(true);
         }
       } else {
@@ -31,8 +31,10 @@ const Projects = () => {
     };
   }, []);
 
+  console.log(window.scrollY)
+
   return (
-    <section className="min-h-[100vh] bg-darkSecondary text-white p-3 font-poppins">
+    <section id="projects" className="min-h-[100vh] bg-darkSecondary text-white p-3 font-poppins">
       <div className="wrapper mt-20">
         <Divider />
         {renderAnimation && (

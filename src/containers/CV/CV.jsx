@@ -3,7 +3,7 @@ import "./CV.css";
 
 const CV = () => {
   return (
-    <section className="bg-darkSecondary min-h-[100vh] text-white p-3 font-poppins">
+    <section id="cv" className="bg-darkSecondary min-h-[100vh] text-white p-3 font-poppins">
       <div className="wrapper md:mt-10 mt-20">
         <div className="cluster">
           <div className="grape"></div>

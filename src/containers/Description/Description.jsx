@@ -33,7 +33,7 @@ const Description = () => {
   }, []);
 
   return (
-    <section className="h-[100vh] bg-darkSecondary text-white font-poppins p-3">
+    <section id="description" className="h-[100vh] bg-darkSecondary text-white font-poppins p-3">
       <div className="wrapper flex sm:flex-row flex-col justify-between items-center h-full">
         <div className="image-container sm:w-1/2 w-full sm:h-full h-1/2 flex justify-center items-center relative">
           <img

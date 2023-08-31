@@ -1,7 +1,3 @@
-* {
-  scroll-behavior: smooth;
-}
-
 .text-gradient-purple {
   background: var(--gradient-text-purple);
   background-clip: text;
