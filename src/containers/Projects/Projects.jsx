@@ -17,7 +17,7 @@ const Projects = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (isDesktopOrLaptop) {
-        if (window.scrollY > 2332 && window.scrollY < 3500) {
+        if (window.scrollY > 2832 && window.scrollY < 3500) {
           setRenderAnimation(true);
         }
       } else {
