@@ -16,7 +16,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Thanks for your feedback")
         },
         (error) => {
           console.log(error.text);
@@ -32,7 +32,7 @@ const Contact = () => {
         <h4 className="text-4xl font-bold text-gradient-purple text-center my-10">
           Contact Me
         </h4>
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col md:px-40 px-0">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col md:px-40 px-0" autoComplete="off">
           <input
             type="text"
             className="w-full p-2 border-2 outline-0 my-5"
