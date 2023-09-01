@@ -52,7 +52,7 @@ export const AnimatedParagraphs = ({ paragraphs, delay, styles }) => {
             key={index}
             text={paragraph}
             delay={delay}
-            styles="mt-5"
+            styles={styles}
           />
         ))}
     </div>

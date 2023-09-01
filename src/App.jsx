@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./keyframes.css";
 
@@ -14,6 +14,7 @@ import {
 } from "./containers";
 
 const App = () => {
+  const [isOpenedQA, setOpenedQA] = useState(false);
   const lang = localStorage.getItem("lang");
 
   if (!lang) localStorage.setItem("lang", "en");
@@ -25,8 +26,8 @@ const App = () => {
       <Description />
       <Skills />
       <Projects />
-      <QA />
-      <CV />
+      <QA setOpenedQA={setOpenedQA} />
+      <CV isOpenedQA={isOpenedQA} />
       <Contact />
       <Footer />
     </>

@@ -4,7 +4,7 @@ import { qa } from "../utils/data";
 import { qaTR } from "../utils/dataTR";
 import { useMediaQuery } from "react-responsive";
 
-const QA = () => {
+const QA = ({ setOpenedQA }) => {
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
   const [renderAnimation, setRenderAnimation] = useState(false);
 
@@ -13,6 +13,12 @@ const QA = () => {
   });
 
   const lang = localStorage.getItem("lang");
+
+  const handleClick = (q) => {
+    setCurrentQuestionId(q.questionId);
+
+    setOpenedQA(true);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +57,7 @@ const QA = () => {
               ? qa.map((q) => (
                   <div
                     key={q.questionId}
-                    onClick={() => setCurrentQuestionId(q.questionId)}
+                    onClick={() => handleClick(q)}
                     className="border-2 p-3 w-full hover-and-scale hover:bg-white transition bg-gradient"
                   >
                     {!currentQuestionId ? (
@@ -70,7 +76,7 @@ const QA = () => {
               : qaTR.map((q) => (
                   <div
                     key={q.questionId}
-                    onClick={() => setCurrentQuestionId(q.questionId)}
+                    onClick={() => handleClick(q)}
                     className="border-2 p-3 w-full hover-and-scale hover:bg-white transition bg-gradient"
                   >
                     {!currentQuestionId ? (
