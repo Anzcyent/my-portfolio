@@ -30,7 +30,7 @@ const ProjectCard = ({
       </main>
 
       <footer className="flex flex-col h-[250px] rounded-bl-lg rounded-br-lg">
-        <div className="flex flex-col justify-around text-sm p-3 h-[200px] bg-gradient">
+        <div className="flex flex-col justify-around text-sm p-3 h-[200px] bg-gradient overflow-auto custom-scroll">
           {description}
           <br />
           <div className="flex w-full justify-evenly items-center mt-1">

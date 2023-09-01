@@ -3,7 +3,7 @@ export const heroText =
 
 export const paragraphs = [
   "I am Cihan. I have a bachelor's degree in English translation and interpreting from Kırıkkale University and an associate degree in web design and coding from Anadolu University.",
-  "My fascination with software started about 3 years ago and when I entered the world of web development, I realized that I enjoy creating user-centered interfaces. By developing my React.js skills, I enjoy turning design concepts into interactive and dynamic websites that captivate users and offer smooth navigation.",
+  "About three years ago, I started my web development journey by stepping into the software world. During this time, I focused especially on developing user-centered interfaces. I started learning technologies such as React.js and faced many challenges in this process. However, these challenges and experiences motivated me to create impressive and user-friendly websites using design concepts. I feel like I'm still at the beginning of the road, but I continue to learn new things and improve myself every day.",
   "As a Junior Developer, I love continuous learning. I try to stay up to date with the latest trends, best practices and new technologies in the ever-evolving environment of front end development. I try to improve my skills and embrace new challenges in every project I do or contribute to. I try to write clean and non-repetitive code (as much as I can 😁).",
 ];
 
@@ -12,84 +12,84 @@ export const skills = [
     name: "React.js",
     completed: 100,
     image: "/assets/skills/react.png",
-    info: "I have 2 years (not professional) experience with React.js. I am good at building complex user interfaces and using component-based design effectively.",
+    info: "I have about two years of (non-professional) React.js experience. During this time, I have developed web applications using React.js for my own projects and personal interests. Through this experience, I have learned the basic concepts and best practices of React.js. Also, in the process, I have improved my ability to solve problems and have seen successes in my projects as I improved my coding skills. I am looking forward to gaining experience in a professional environment, but I believe that I can contribute to many projects with my current experience.",
     category: "language",
   },
   {
     name: "HTML",
     completed: 100,
     image: "/assets/skills/html.png",
-    info: "I have extensive experience in HTML. I can create web pages using advanced HTML5 features in accordance with modern standards.",
+    info: "My web development journey began three years ago when I successfully built web pages using the modern standards-enhanced features of HTML5. This foundation was my first step into the web world and I have continued to build on it by adding other important technologies such as CSS and JavaScript.",
     category: "language",
   },
   {
     name: "CSS",
     completed: 95,
     image: "/assets/skills/css.png",
-    info: "I have skills in designing with CSS. I can effectively use layout methods such as Flexbox and Grid to create visually appealing and responsive designs.",
+    info: "I was then introduced to CSS and learned how to effectively use layout methods like flexbox and grid to create visually appealing and responsive designs. Of course, my CSS knowledge didn't stop at flexbox and grid. I also dove deeper into web design using advanced features like CSS customizations, animations, and transformations, giving me the ability to customize every aspect of the design to enhance the user experience.",
     category: "language",
   },
   {
     name: "JavaScript",
     completed: 95,
     image: "/assets/skills/javascript.png",
-    info: "About 3 years ago, I entered the world of JavaScript, starting with an understanding of the basic concepts, gaining experience in areas such as DOM manipulation and interaction, API integration, etc. While improving my coding skills with ES6 and beyond, I worked on large projects later with frameworks such as React. Every challenge and success has been part of my continuous learning journey and my enthusiasm for JavaScript has never waned.",
+    info: "After CSS, I entered the world of JavaScript. I started by understanding the basics, gaining experience in areas such as DOM manipulation and interaction, API integration, etc. As I improved my coding skills with ES6 and beyond, I started doing big projects with React. Every challenge and success has been part of my continuous learning journey and my enthusiasm for JavaScript has never waned.",
     category: "language",
   },
   {
     name: "Redux / Redux Toolkit",
     completed: 95,
     image: "/assets/skills/redux.png",
-    info: "I can work with Redux and Redux Toolkit at an advanced level. I am experienced in global state management and data flow, which facilitates the management of large-scale applications.",
+    info: "After some time of progressing forward with React, I met Redux. My experience working with Redux and Redux Toolkit has improved my skills in data management of web applications. With Redux, I learned how to effectively manage application state using actions and reducers. With the use of Redux Toolkit, I was able to make my code more efficient and improve readability. I also experienced customizing the data flow and integrating additional functionality into the application using Redux middleware. These experiences have further strengthened my web development skills and I intend to use this knowledge in more complex projects in the future.",
     category: "language",
   },
   {
     name: "Sass",
     completed: 85,
     image: "/assets/skills/sass.png",
-    info: "I can use the Sass (SCSS) preprocessor effectively. I am skilled at style-based coding and creating modular structures for reusability.",
+    info: "I had experience writing CSS using Sass in my previous projects. I learned how to make CSS code more organized and manageable by using Sass's features such as variables, built-in operations and mixins. In this way, I was able to develop designs faster and more effectively.",
     category: "language",
   },
   {
     name: "Tailwind",
     completed: 90,
     image: "/assets/skills/tailwind.png",
-    info: "With Tailwind I can use ready-made components and useful classes to build user interfaces quickly and efficiently. Just like I did on this website.",
+    info: "Using Tailwind CSS in my projects has significantly improved my web design skills. By learning to work with CSS classes, I gained the ability to customize every aspect of the design more quickly and effectively. In addition, thanks to Tailwind features on responsiveness, I gained experience in adapting my projects to different screen sizes. I continue to use Tailwind CSS in my projects to create more complex and aesthetically appealing designs.",
     category: "language",
   },
   {
     name: "Bootstrap",
     completed: 80,
     image: "/assets/skills/bootstrap.png",
-    info: "I can use the Bootstrap framework effectively. My skills in rapid prototyping and responsive design enable me to bring projects to life quickly.",
+    info: "The first design framework I learned was Bootstrap. My introduction to Bootstrap made me realize the importance of creating fast and responsive projects in web design. I can use it when needed.",
     category: "language",
   },
   {
     name: "Node.js",
     completed: 75,
     image: "/assets/skills/nodejs.png",
-    info: "I have experience developing with Node.js and backend. Although I am not as experienced as frontend, I can use Node.js to create backend services and provide database integration.",
+    info: "After learning the basics of front-end development, I aimed to step into the world of back-end development. Since I had some JavaScript knowledge, I was first introduced to Node.js. Node.js allowed me to learn server-side JavaScript development, database management and API creation. This allowed me to develop my full-stack web development skills and gain the ability to create fully functional web applications that allow users to interact with data from the front end.",
     category: "language",
   },
   {
     name: "Express",
     completed: 75,
     image: "/assets/skills/express.png",
-    info: "I can build fast and scalable backend applications using the Express framework. I have experience with RESTful APIs and server-side logic.",
+    info: "After learning the basics of Node.js, I learned what Express is. I learned how to build web applications faster and more efficiently thanks to the features Express offers, such as fast routing, server-side process control, and customizability. This experience helped me improve my skills in server-side development and I gained the ability to work on larger and more complex web projects.",
     category: "language",
   },
   {
     name: "MongoDB",
     completed: 75,
     image: "/assets/skills/mongo.png",
-    info: "I have skills in data storage and management using the MongoDB database. I can accelerate development processes with its document-based structure.",
+    info: "The first database I learned was MongoDB. I have had experiences with other databases (SQL or NoSQL), but I feel very comfortable using MongoDB.",
     category: "language",
   },
   {
-    name: "Typescript",
+    name: "TypeScript",
     completed: 65,
     image: "/assets/skills/typescript.png",
-    info: "I can use TypeScript in my projects to write more secure and readable code. I can take advantage of typing and modern JavaScript features. But I am new to TypeScript.",
+    info: "After a while, I discovered that object-oriented programming in JavaScript was not enough because I was dealing with languages like Java and C#. So I decided to learn TypeScript. I am still developing my basic knowledge of TypeScript.",
     category: "language",
   },
 ];
@@ -99,21 +99,21 @@ export const personalSkills = [
     name: "Creativity",
     completed: 100,
     image: "/assets/skills/creativity.png",
-    info: "Creativity is a skill that makes projects unique and impressive. I can produce original solutions by offering different perspectives in design and coding processes.",
+    info: "I can produce original solutions by offering different perspectives in design and coding processes.",
     category: "personal",
   },
   {
     name: "Communication",
     completed: 95,
     image: "/assets/skills/communication.png",
-    info: "Good communication enables to collaborate effectively within the team. I am skilled at explaining technical terms clearly and sharing ideas.",
+    info: "I am skilled at explaining technical terms clearly and sharing ideas.",
     category: "personal",
   },
   {
     name: "Open to learn",
     completed: 100,
     image: "/assets/skills/open-to-learn.png",
-    info: "Being open to continuous learning and development is one of my greatest strengths as a junior developer. I enjoy learning new technologies.",
+    info: "I think being open to continuous learning and development is one of my greatest strengths as a junior developer. I enjoy learning new technologies.",
     category: "personal",
   },
   {
@@ -134,14 +134,14 @@ export const personalSkills = [
     name: "Time Management",
     completed: 90,
     image: "/assets/skills/time-management.png",
-    info: "Time management is a critical skill to complete projects efficiently. I can prioritize tasks and stick to deadlines.",
+    info: "Time management is a critical skill to complete projects efficiently. I prioritize tasks and stick to deadlines.",
     category: "personal",
   },
   {
     name: "Adaptation",
     completed: 95,
     image: "/assets/skills/adaptation.png",
-    info: "Adaptability is important in a rapidly changing technology environment. I can quickly adapt to new conditions and requirements.",
+    info: "It is necessary to adapt to rapidly changing technology environments. I can quickly adapt to new conditions and requirements.",
     category: "personal",
   },
 ];
@@ -187,7 +187,7 @@ export const developerSkills = [
 export const projects = [
   {
     name: "GPT",
-    description: "A landing page template introducing GPT.",
+    description: "My project, a landing page template introducing GPT, was developed using React and Sass. The main goal of this project is to present an impressive web interface that highlights the potential and features of GPT.",
     pageUrl: "https://anz-gpt.onrender.com",
     codeUrl: "https://github.com/Anzcyent/anz-gpt/tree/main",
     image: "/assets/projects/gpt.png",
@@ -197,7 +197,7 @@ export const projects = [
   {
     name: "PolyZone",
     description:
-      "A landing page template introducing a shooting range shop that I've created for one of my friends.",
+      "A landing page template project I created for a friend of mine using React and Sass to promote a shooting range store.",
     pageUrl: "https://poly-zone.onrender.com",
     codeUrl: "https://github.com/Anzcyent/poly-zone",
     image: "/assets/projects/polyzone.png",
@@ -206,7 +206,7 @@ export const projects = [
   },
   {
     name: "FitFlex",
-    description: "A landing page template introducing a GYM chain company.",
+    description: "A landing page template promoting a GYM chain company. Developed with React and Sass.",
     pageUrl: "https://fit-flex.onrender.com",
     codeUrl: "https://github.com/Anzcyent/fitflex",
     image: "/assets/projects/fitflex.png",
@@ -219,7 +219,7 @@ export const projects = [
   },
   {
     name: "ShopEazy",
-    description: "A full stack (MERN) e-commerce website.",
+    description: "A full stack (MERN) e-commerce website. It was developed with the technologies shown below.",
     pageUrl: "https://shopeazy-client.onrender.com",
     codeUrl: [
       "https://github.com/Anzcyent/e-commerce-client",
@@ -239,7 +239,7 @@ export const projects = [
   {
     name: "BlogAnz",
     description:
-      "A full stack (MERN) blog sharing website that I've created for my school project.",
+      "A full stack (MERN) blog sharing website that I've created for my school project. It was developed with the technologies shown below.",
     pageUrl: "https://bloganz-client.onrender.com",
     codeUrl: [
       "https://github.com/Anzcyent/bloganz-client",
@@ -258,7 +258,7 @@ export const projects = [
   },
   {
     name: "Vote Vortex",
-    description: "A full stack (MERN) survey sharing website.",
+    description: "A full stack (MERN) survey sharing website. It was developed with the technologies shown below.",
     pageUrl: "https://vote-vortex-client.onrender.com",
     codeUrl: [
       "https://github.com/Anzcyent/vote-vortex-client",
@@ -278,7 +278,7 @@ export const projects = [
   {
     name: "Guess What",
     description:
-      "A full stack (MERN) and basic gambling (for entertainment purposes, no real money is used) game.",
+      "Full stack (MERN) is a small gambling (for entertainment purposes, no real money is used) game. It was developed with the following technologies.",
     pageUrl: "https://guess-what-client.onrender.com",
     codeUrl: [
       "https://github.com/Anzcyent/guess-what-client",
@@ -302,7 +302,7 @@ export const qa = [
     questionId: 1,
     question: "Why should we choose you?",
     answer:
-      "With my relevant experience and interest in web technologies, I can overcome challenges in your projects thanks to my problem solving skills and add value to your projects through teamwork. With my willingness to keep your projects up to date by adapting to rapidly changing trends and my understanding of user-oriented design, I can ensure that your projects provide impressive experiences for users.",
+      "With my relevant experience, interest in web technologies and problem solving skills, I can overcome the challenges in your projects and add value to your projects with teamwork. By adapting to changing trends, I can ensure that your projects provide impressive experiences for users with my user-oriented design approach.",
   },
   {
     questionId: 2,

@@ -57,7 +57,7 @@ const Description = () => {
             </h2>
             <AnimatedParagraphs
               paragraphs={lang === "en" ? paragraphs : paragraphsTR}
-              delay={20}
+              delay={30}
               styles="mt-2 sm:text-base text-sm"
             />
           </div>
