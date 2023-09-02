@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillPhone, AiFillMail, AiFillLinkedin } from "react-icons/ai";
+import { AiFillPhone, AiFillMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -17,13 +17,22 @@ const Footer = () => {
           ozcancihan714@gmail.com
         </small>
 
-        <a
-          href="https://www.linkedin.com/in/cihan-özcan-27a94a284/"
-          className="font-bold hover-and-scale bg-aqua md:mt-0 mt-5"
-          target="_blank"
-        >
-          <AiFillLinkedin />
-        </a>
+        <div className="flex gap-2">
+          <a
+            href="https://www.linkedin.com/in/cihan-özcan-27a94a284/"
+            className="font-bold hover-and-scale bg-aqua md:mt-0 mt-5"
+            target="_blank"
+          >
+            <AiFillLinkedin />
+          </a>
+          <a
+            href="https://github.com/Anzcyent"
+            className="font-bold hover-and-scale bg-dark md:mt-0 mt-5"
+            target="_blank"
+          >
+            <AiFillGithub />
+          </a>
+        </div>
 
         <small className="font-bold md:mt-0 mt-5">ANKARA</small>
       </div>
