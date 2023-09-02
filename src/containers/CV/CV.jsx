@@ -26,7 +26,7 @@ const CV = ({isOpenedQA}) => {
                 : "Aşağıdaki butona tıklayarak özgeçmişime ulaşabilirsiniz."}
             </span>
             <a
-              href="/downloads/dummyCV.txt"
+              href="/downloads/cihan-ozcan-cv.pdf"
               className="bg-gradient p-3 hover-and-scale my-10"
               download
             >
