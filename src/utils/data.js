@@ -278,7 +278,7 @@ export const projects = [
   {
     name: "Guess What",
     description:
-      "Full stack (MERN) is a small gambling (for entertainment purposes, no real money is used) game. It was developed with the following technologies.",
+      "A small full stack (MERN) gambling (for entertainment purposes, no real money is used) game. It was developed with the following technologies.",
     pageUrl: "https://guess-what-client.onrender.com",
     codeUrl: [
       "https://github.com/Anzcyent/guess-what-client",
