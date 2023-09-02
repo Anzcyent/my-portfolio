@@ -249,7 +249,7 @@ export const projects = [
     category: "full-stack",
     techStacks: [
       "/assets/skills/react.png",
-      "/assets/skills/tailwind.png",
+      "/assets/skills/css.png",
       "/assets/skills/redux.png",
       "/assets/skills/nodejs.png",
       "/assets/skills/mongo.png",
