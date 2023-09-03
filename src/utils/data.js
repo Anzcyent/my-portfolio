@@ -9,7 +9,7 @@ export const paragraphs = [
 
 export const skills = [
   {
-    name: "React.js",
+    name: "React",
     completed: 100,
     image: "/assets/skills/react.png",
     info: "I have about two years of (non-professional) React.js experience. During this time, I have developed web applications using React.js for my own projects and personal interests. Through this experience, I have learned the basic concepts and best practices of React.js. Also, in the process, I have improved my ability to solve problems and have seen successes in my projects as I improved my coding skills. I am looking forward to gaining experience in a professional environment, but I believe that I can contribute to many projects with my current experience.",

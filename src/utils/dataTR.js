@@ -9,7 +9,7 @@ export const paragraphsTR = [
 
 export const skillsTR = [
   {
-    name: "React.js",
+    name: "React",
     completed: 100,
     image: "/assets/skills/react.png",
     info: "Yaklaşık iki yıllık (profesyonel olmayan) React.js deneyimine sahibim. Bu süre zarfında, kendi projelerimde ve kişisel ilgilerim doğrultusunda React.js'yi kullanarak web uygulamaları geliştirdim. Bu deneyim sayesinde React.js'in temel konseptlerini ve en iyi uygulamalarını öğrendim. Ayrıca, bu süreçte sorunları çözme yeteneğimi geliştirdim ve kodlama becerilerimi ilerlettikçe projelerimdeki başarılarımı gördüm. Profesyonel bir ortamda deneyim kazanmak için sabırsızlanıyorum, ancak şu anki tecrübemle de birçok projeye katkı sağlayabileceğime inanıyorum.",
